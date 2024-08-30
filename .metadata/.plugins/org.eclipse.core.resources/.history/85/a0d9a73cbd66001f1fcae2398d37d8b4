@@ -1,0 +1,30 @@
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		byte a=100;  // byte range -128 to 127
+		short b=a;   //implicit type casting. short range -32678 to 32768.
+		System.out.println("a" + a);
+		System.out.println("a" + b);
+		
+		short  c=128;  // 2 byte memory and value is 100
+		//byte d=c  // Cannot hold the 2 byte memory of value 100 bcos..
+	    byte d = (byte) c;  // convert.. explicit type casting
+	    System.out.println("c" + c);
+	    System.out.println("c" + d);
+	    
+	    // int and float family
+	    int m =100 ;
+	    int n=m;
+	    System.out.println("m "+m);
+	    System.out.println("n "+n);
+	    float 0=100;
+	    int p=(int o);
+	    System.out.println("o"+o);
+	    
+	    System.out.println("p"+p);
+		
+		}
+ }
+
+

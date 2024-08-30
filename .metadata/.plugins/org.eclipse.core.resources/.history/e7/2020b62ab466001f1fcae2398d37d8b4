@@ -1,14 +1,12 @@
 
 public class DataTypes {
   public static void main(String[] args) {
-	//int a;
+	int a;
 	int b=100;
 	double c=100.40;
 	char d ='£';
 	boolean result = true;
 	// System.out.println(a);
-	//string name ="Nicck";
-	String name ="Nicck";
 	 System.out.println(b);
 	 System.out.println("b");
 	 System.out.println("Value of b is :"+b);
@@ -18,7 +16,7 @@ public class DataTypes {
 	 
 	 System.out.println("Value of b is :"+b);
 	 System.out.println("Value of b is :"+result);
-	 System.out.println("name is " +name);
+	 
 	 
     }
 

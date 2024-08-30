@@ -1,0 +1,17 @@
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		byte a=100;
+		short b=a;   //implicit type casting
+		System.out.println("a" + a);
+		System.out.println("a" + b);
+		
+		short  c=100;  // 2 byte memory and value is 100
+		//byte d=c  // Cannot hold the 2 byte memory of value 100 bcos..
+	    byte d = (byte) c;  // convert.. explicit type casting
+		
+		}
+ }
+
+

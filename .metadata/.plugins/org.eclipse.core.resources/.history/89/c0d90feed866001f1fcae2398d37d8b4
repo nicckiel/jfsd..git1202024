@@ -1,0 +1,12 @@
+
+public class ArrayMemoryCreation {
+
+	public static void main(String[] args) {
+		int abc[] = new int [10];
+       System.out.println("Size of array" + abc.length);
+       System.out.println(abc [0]);
+       System.out.println(abc [9]);
+       System.out.println(abc[10]); // exception generated
+	}
+
+}

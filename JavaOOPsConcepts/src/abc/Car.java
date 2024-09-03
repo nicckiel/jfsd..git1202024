@@ -4,7 +4,7 @@ public class Car {
 	//Property (declaration and initialization)
 	 int wheel;
 	 String colour;
-	 float price;
+	 float price;// 2nd  coding --Instance variable.
 	 
 	 //Behaviours ( method)
 	 
@@ -20,5 +20,15 @@ public class Car {
      void stopping() {
     	 System.out.println("stopiing car");
      }
-     
+     void carInfo(String name) {
+    	 String Info=("Car details" + name );// 2nd coding Local Variable.
+    	 System.out.println(Info);
+    	 System.out.println("Wheel" + wheel);
+    	 System.out.println("colour" + colour);
+    	 System.out.println("price" + price);
+    	 
+    	 
+    	 
+     }
+   
 }
